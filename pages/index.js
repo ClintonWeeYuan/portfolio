@@ -46,12 +46,16 @@ export default function Home() {
                         Born in Sarawak, Malaysia.
                     </BioSection>
                     <BioSection>
+                        <BioYear>2016</BioYear>
+                        Awarded Top in the World for Maths in Cambridge AS Level
+                    </BioSection>
+                    <BioSection>
                         <BioYear>2021</BioYear>
                         Graduated from the University of Cambridge
                     </BioSection>
                     <BioSection>
                         <BioYear>2022</BioYear>
-                        Working as an Analyst at NCS, a Singaporean Tech Firm
+                        Working as an Analyst at NCS, a Singaporean Tech Company
                     </BioSection>
                 </Section>
 
@@ -59,7 +63,7 @@ export default function Home() {
                     <Heading as='h3' variant='section-title'>
                         My Interests
                     </Heading>
-                    <Paragraph>Programming, Badminton, Hiking, Cooking, Dota2</Paragraph>
+                    <Paragraph>Programming, Badminton, Debating, Cooking, Dota 2</Paragraph>
                 </Section>
             </Container>
         </Layout>

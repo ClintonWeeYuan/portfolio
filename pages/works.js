@@ -7,6 +7,7 @@ import Layout from '../components/layouts/article'
 const Works = () => {
     const timeCheck = '/timecheck.png'
     const card2me = './card2me.png'
+    const intograd = './intograd.png'
     return(
         <Layout>
         <Container>
@@ -24,7 +25,11 @@ const Works = () => {
                     <WorkGridItem id='Card2Me' title="Card2Me" thumbnail={card2me}>
                         Let a loved one know you&apos;re thinking of them by designing a custom E-card, using intuitive drag & drop interface, and sending it via link.
                     </WorkGridItem>
-
+                </Section>
+                <Section>
+                    <WorkGridItem id='Intograd' title="Intograd" thumbnail={intograd}>
+                        A platform for postgraduate applicants (mentees) to connect with successful postgraduate students (mentors). Mentors are paired with mentees according to their specific needs and backgrounds. New signups are automatically sent a welcome email.
+                    </WorkGridItem>
                 </Section>
             </SimpleGrid>
         </Container>
