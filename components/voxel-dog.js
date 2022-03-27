@@ -1,4 +1,4 @@
-import {useRef, useState, useEffect} from 'react';
+import {useRef, useState, useEffect, useCallback} from 'react';
 import {Box, Spinner} from '@chakra-ui/react';
 import * as THREE from 'three'
 import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls'
@@ -20,6 +20,14 @@ const VoxelDog = () => {
     const [scene] = useState(new THREE.Scene())
     const [_controls, setControls] = useState()
 
+    const handleWindowResize = useCallback(() => {
+        const {current: container} = refContainer;
+        if(container && renderer){
+            const scW = container.clientWidth
+            const scH = container.clientHeight
+            renderer.setSize(scW, scH);
+        }
+    }, [renderer])
     useEffect(() => {
         const {current: container} = refContainer;
         if(container && !renderer){
@@ -82,6 +90,13 @@ const VoxelDog = () => {
             }
         }
     }, [])
+
+    useEffect(() => {
+    window.addEventListener('resize', handleWindowResize, false);
+    return () => {
+        window.removeEventListener('resize', handleWindowResize, false);
+        }
+    }, [renderer, handleWindowResize])
     return (
         <Box ref={refContainer}  className='voxel-dog' m='auto' mt={['-20px', '-60px', '-120px']}
              mb={['-40px', '-140px', '-200px']} w={[280, 480, 640]} h={[280, 480, 640]}
