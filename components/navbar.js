@@ -23,7 +23,7 @@ const Navbar = props => {
              zIndex={1}
              {...props}>
             <Container display="flex"
-                       p={2} maxW='container.md'
+                       p={2} maxW='90%'
                        wrap='wrap'
                        align='center'
                        justify='space-between'>
@@ -42,9 +42,6 @@ const Navbar = props => {
                     <LinkItem href='/works' path={path}>
                         Works
                     </LinkItem>
-                    <LinkItem href='/posts' path={path}>
-                        Posts
-                    </LinkItem>
                 </Stack>
     <Box flex={1} align='right'>
         <ThemeToggleButton/>
@@ -58,12 +55,6 @@ const Navbar = props => {
                     </NextLink>
                     <NextLink href="/works" passHref>
                         <MenuItem as={Link}>Works</MenuItem>
-                    </NextLink>
-                    <NextLink href="/posts" passHref>
-                        <MenuItem as={Link}>Posts</MenuItem>
-                    </NextLink>
-                    <NextLink href="/" passHref>
-                        <MenuItem as={Link}>View Source</MenuItem>
                     </NextLink>
                 </MenuList>
             </Menu>
