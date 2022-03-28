@@ -1,10 +1,8 @@
 import {
     Box,
     Button,
-    Container,
     Heading,
     Image,
-    Link,
     List,
     ListItem,
     Popover, PopoverArrow, PopoverBody, PopoverCloseButton, PopoverContent, PopoverTrigger,
