@@ -8,6 +8,7 @@ const Garden = () => {
     return(
         <Layout title="TimeCheck">
             <Container maxW='100%'>
+                <Title>
                     Garden <Badge>In Progress</Badge>
                 </Title>
                 <Paragraph>
