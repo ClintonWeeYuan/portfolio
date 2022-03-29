@@ -13,10 +13,10 @@ export default function Main({children, router}) {
             <link rel="icon" href="/favicon.ico"/>
         </Head>
         <Navbar path={router.asPath}/>
-        <Container maxW="80%" pt={6}>
-            <NoSsr>
-            <VoxelDog/>
-            </NoSsr>
+        <Container maxW="80%" pt={16}>
+            {/*<NoSsr>*/}
+            {/*<VoxelDog/>*/}
+            {/*</NoSsr>*/}
             {children}
         </Container>
     </Box>

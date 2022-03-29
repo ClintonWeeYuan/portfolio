@@ -28,7 +28,7 @@ export default function Home() {
                         <p>Digital Enthusiast</p>
                     </Box>
                     <Box flexShrink={0} mt={{base: 4, md: 0}} ml={{md: 6}} align='center'>
-                        <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="100px"
+                        <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="150px"
                                display="inline-block" borderRadius="full" src="/profile2.jpeg" alt="Profile Image"/>
                     </Box>
                 </Box>
@@ -36,20 +36,7 @@ export default function Home() {
                     <Heading as="h3" variant="section-title">
                         Work
                     </Heading>
-                    <Paragraph>Riddle me this. I build contracts on blockchains, not on paper. I deliver arguments in functions, not in court. The only client I serve lives on the browser. What am I? </Paragraph>
-                    <Box display="flex" justifyContent="flex-end" >
-                    <Popover mt={2}>
-                        <PopoverTrigger>
-                            <Button>Answer</Button>
-                        </PopoverTrigger>
-                        <PopoverContent>
-                            <PopoverArrow />
-                            <PopoverCloseButton />
-                            <PopoverBody>A law student gone rogue</PopoverBody>
-                        </PopoverContent>
-
-                    </Popover>
-                    </Box>
+                    <Paragraph>Clinton is a self-taught full-stack web developer with a passion for creating lean and clean web apps that improve the lives of others. While he works as a full time analyst, he enjoys working on challenging side projects that provide a meaningful impact to the world.</Paragraph>
                     <Box align='center' my={4}>
                         <NextLink href="/works"><Button rightIcon={<ChevronRightIcon/>} colorScheme='teal'>My
                             Portfolio</Button></NextLink>
@@ -112,4 +99,3 @@ export default function Home() {
         </Layout>
     )
 }
-
