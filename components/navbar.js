@@ -43,7 +43,7 @@ const Navbar = props => {
                         Works
                     </LinkItem>
                 </Stack>
-    <Box flex={1} align='right'>
+    <Box flex={1} align='right' sx={{ display:"flex", alignItems:"center", justifyContent:"flex-end"}}>
         <ThemeToggleButton/>
         <Box ml={2} display={{base:'inline-block', md:'none'}}>
             <Menu>

@@ -70,7 +70,6 @@ export default function Home() {
                     <List>
                         <ListItem>
                             <span>Languages: </span>
-                            <Meta color='green'>Javascript</Meta>
                             <Meta color='green'>Typescript</Meta>
                             <Meta color='green'>Python</Meta>
                             <Meta color='green'>Solidity</Meta>
@@ -83,7 +82,6 @@ export default function Home() {
                         <ListItem>
                             <span>BE & Database: </span>
                             <Meta color='blue'>NodeJS</Meta>
-                            <Meta color='blue'>ExpressJS</Meta>
                             <Meta color='blue'>DynamoDB</Meta>
                             <Meta color='blue'>MongoDB</Meta>
                         </ListItem>
