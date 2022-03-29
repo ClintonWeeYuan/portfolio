@@ -7,7 +7,7 @@ import Layout from '../../components/layouts/article'
 const Intograd = () => {
     return(
         <Layout title="TimeCheck">
-            <Container maxW='80%'>
+            <Container maxW='100%'>
                 <Title>
                     Intograd <Badge>2021</Badge>
                 </Title>

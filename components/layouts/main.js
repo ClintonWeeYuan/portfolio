@@ -13,7 +13,7 @@ export default function Main({children, router}) {
             <link rel="icon" href="/logo1.png"/>
         </Head>
         <Navbar path={router.asPath}/>
-        <Container maxW="80%" pt={20}>
+        <Container maxW={{base:"95%", md:"80%"}} pt={20}>
             {/*<NoSsr>*/}
             {/*<VoxelDog/>*/}
             {/*</NoSsr>*/}

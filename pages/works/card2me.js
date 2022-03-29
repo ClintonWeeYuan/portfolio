@@ -7,7 +7,7 @@ import Layout from '../../components/layouts/article'
 const Card2Me = () => {
     return(
         <Layout title="TimeCheck">
-            <Container maxW='80%'>
+            <Container maxW='100%'>
                 <Title>
                     Cards-To-Me <Badge>2022</Badge>
                 </Title>

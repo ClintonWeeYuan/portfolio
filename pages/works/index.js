@@ -11,7 +11,7 @@ const Works = () => {
     const garden = './garden.png'
     return(
         <Layout>
-        <Container maxW='80%'>
+        <Container maxW='100%'>
             <Heading as='h3' fontSize={20} mb={4}>
                 Works
             </Heading>

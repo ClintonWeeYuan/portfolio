@@ -7,8 +7,7 @@ import Layout from '../../components/layouts/article'
 const Garden = () => {
     return(
         <Layout title="TimeCheck">
-            <Container maxW='80%'>
-                <Title>
+            <Container maxW='100%'>
                     Garden <Badge>In Progress</Badge>
                 </Title>
                 <Paragraph>
