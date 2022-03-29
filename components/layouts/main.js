@@ -10,7 +10,7 @@ export default function Main({children, router}) {
         <Head>
             <title>Clinton Wee</title>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
-            <link rel="icon" href="/favicon.ico"/>
+            <link rel="icon" href="/logo1.png"/>
         </Head>
         <Navbar path={router.asPath}/>
         <Container maxW="80%" pt={20}>
