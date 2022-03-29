@@ -5,7 +5,6 @@ import {
     Image,
     List,
     ListItem,
-    Popover, PopoverArrow, PopoverBody, PopoverCloseButton, PopoverContent, PopoverTrigger,
     useColorModeValue,
 } from '@chakra-ui/react'
 import Section from '../components/motion'
